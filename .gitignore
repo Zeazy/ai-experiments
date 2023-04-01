@@ -1,0 +1,7 @@
+## fastai folders
+fastai/jpgs
+fastai/__pycache__
+fastai/models
+fastai/cake_or_tree/
+
+adhoc.py
