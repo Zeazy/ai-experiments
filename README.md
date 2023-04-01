@@ -7,8 +7,8 @@ The main hope is that it'll help keep my accountable as I balance it with life. 
 
 
 ## Structure of this repository
-- fastai: contains lessons/adhoc files as I learn and implement the content I learn
-- experiments: contains small experiments applying what I have (hopefully) learned!
+- **fastai**: contains lessons/adhoc files as I learn and implement the content I learn
+- **experiments**: contains small experiments applying what I have (hopefully) learned!
 
 ## Getting Started
 
