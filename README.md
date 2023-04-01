@@ -3,7 +3,7 @@
 This repository is primarily to document my journey to learn more about AI. It will include AI experiments and learnings from tutorials, videos and things that I read.
 The main hope is that it'll help keep my accountable as I balance it with life. If it proves useful to someone one day, that's a bonus. Let's go!
 
-[**First chatpter**: FastAI course](https://course.fast.ai/)
+**First chapter**: [FastAI course](https://course.fast.ai/)
 
 
 ## Structure of this repository
