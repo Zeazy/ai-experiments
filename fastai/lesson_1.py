@@ -26,7 +26,10 @@ def main(
     use_existing_model: bool = False,
 ):
     label_a, label_b = search_terms
-    path = Path(f"{label_a}_or_{label_b}")
+    current_dir = Path.cwd()
+    path = current_dir / f"{label_a}_or_{label_b}"
+    print(f"Path: {path}")
+    # path = Path(f"{label_a}_or_{label_b}")
 
     if generate_images:
         generate_labelled_dataset(search_terms, path, max_images)
@@ -99,7 +102,7 @@ def predict(model: object, search_term: str):
     Returns the label and the probability of that label
     """
     dest = f"{search_term}.jpg"
-    urls = search_images(f"chocolate {search_term} photos", max_images=1)
+    urls = search_images(f"{search_term} photos", max_images=1)
     download_url(urls[0], dest, show_progress=False)
     name, _, probs = model.predict(PILImage.create(dest))
 
@@ -107,7 +110,7 @@ def predict(model: object, search_term: str):
     print(f"Probability it's a {name}: {probs[0]:.4f}")
 
 
-if __name__ == "__main__":
-    fire.Fire(main)
+# if __name__ == "__main__":
+#     fire.Fire(main)
 
-# main(('cake', 'tree'), max_images=30, generate_images=False, use_existing_model = True)
+main(('bike', 'tiger'), max_images=30, generate_images=False, use_existing_model = False)
