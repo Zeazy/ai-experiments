@@ -8,3 +8,11 @@ fastai/cake_or_tree/
 # files / folders
 adhoc.py
 .vscode/
+
+# experiments
+experiments/text_recognition/Dockerfile
+experiments/text_recognition/update.sh
+experiments/text_recognition/version.txt
+
+# base lambda
+lambda-ml-base/
