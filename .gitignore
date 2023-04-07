@@ -1,6 +1,7 @@
 ## fastai folders
 fastai/jpgs
 fastai/__pycache__
+fastai/datasets
 fastai/models
 fastai/cake_or_tree/
 
