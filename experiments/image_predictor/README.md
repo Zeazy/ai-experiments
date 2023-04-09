@@ -17,7 +17,7 @@ To run the Rhino Predictor web app, follow these steps:
 3. Install the required libraries: `pip install -r requirements.txt`
 4. Run the web app: `streamlit run app.py`
 
-You can also find the hosted web app on Hugging Face [here] (https://huggingface.co/spaces/Zeazy/rhino_identifier).
+You can also find the hosted web app on Hugging Face [here](https://huggingface.co/spaces/Zeazy/rhino_identifier).
 
 ## Usage
 
