@@ -19,5 +19,6 @@ experiments/image_predictor/service/models/**
 lambda-ml-base/
 
 #__pycache__
-__pycache__
-experiments/image_predictor/service/__pycache__
+__pycache__/
+experiments/image_predictor/service/model/__pycache__/**
+experiments/image_predictor/service/__pycache__/**
