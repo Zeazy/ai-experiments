@@ -44,7 +44,7 @@ class WebApp:
             response = requests.get(result, stream=True)
             response.raw.decode_content = True
             img = Image.open(response.raw)
-            st.image(img, caption=f"A rhino - guess which species", use_column_width=False, width=750)
+            st.image(img, caption=f"A rhino - guess which species", use_column_width=True)
             return img
         else:
             st.error("No image found for the given species. Try again.")
