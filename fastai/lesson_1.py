@@ -7,7 +7,6 @@ from fastdownload import download_url
 from fastai.vision.all import Image
 from fastai.vision.all import *
 from fastcore.all import *
-import fire
 from time import sleep
 
 
