@@ -122,6 +122,5 @@ def predict_from_path(model: object, image: str):
     print(f"This is a: {name}.")
     print(f"Probability it's a {name}: {probs[0]:.4f}")
     
-# main(('bike', 'tiger'), max_images=30, generate_images=True, use_existing_model = False)
-
-predict(load_learner("fine_tuned_model.pkl"), 'tiger')
+if __name__ == "__main__":
+    main(('bike', 'tiger'), max_images=30, generate_images=True, use_existing_model = False)
