@@ -1,4 +1,4 @@
-# Rhino Predictor Web App
+# 🦏 Rhino Predictor Web App 🦏
 
 This web app is part of the FastAI course and the main objective was to apply what I've learned to fine-tune a Resnet34 model to predict rhino species.
 
@@ -12,10 +12,12 @@ The user interface is built using Streamlit, a Python library for building web a
 
 To run the Rhino Predictor web app, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/<username>/<repository>.git`
-2. Navigate to the repository: `cd <repository>`
+1. Clone the repository: `git clone https://github.com/Zeazy/ai-experiments.git`
+2. Navigate to the repository: `cd experiments/image_predictor`
 3. Install the required libraries: `pip install -r requirements.txt`
 4. Run the web app: `streamlit run app.py`
+
+You can also find the hosted web app on Hugging Face [here] (https://huggingface.co/spaces/Zeazy/rhino_identifier).
 
 ## Usage
 
