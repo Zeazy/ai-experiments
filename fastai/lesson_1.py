@@ -112,4 +112,4 @@ def predict(model: object, search_term: str):
 # if __name__ == "__main__":
 #     fire.Fire(main)
 
-main(('bike', 'tiger'), max_images=30, generate_images=False, use_existing_model = False)
+main(("bike", "tiger"), max_images=30, generate_images=False, use_existing_model=False)
