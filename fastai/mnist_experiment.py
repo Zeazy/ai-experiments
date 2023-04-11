@@ -2,22 +2,12 @@
 Experimenting with MNIST dataset using fastai
 Note - Code below not finished yet
 """
-
-import streamlit as st
-from fastai.vision.all import load_learner, PILImage
-from PIL import Image
-import os
-from duckduckgo_search import ddg_images
-from fastdownload import download_url
-from fastai.vision.all import Image
-from fastai.vision.all import *
 from fastai.losses import CrossEntropyLossFlat
-
+from fastai.vision.all import *
 import numpy as np  # linear algebra
 import struct
 from array import array
 from os.path import join
-import random
 import matplotlib.pyplot as plt
 import os
 
